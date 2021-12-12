@@ -17,7 +17,7 @@ class Matrix:
 
     def __add__(self, other):
         first = self.list_in_class
-        second = other.list_in_class
+        second = other.matrix
         add_f_s = []
         for i in range(len(first)):
             add_f_s.append(
